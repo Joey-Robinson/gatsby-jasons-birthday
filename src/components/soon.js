@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import Layout from "../components/layout"
 import BeardPreview from "../components/beard-preview"
 
 const TheBeards = () => {
