@@ -1,7 +1,24 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+exports.createPages = async ({ actions, graphql, reporter }) => {
+  const result = await graphql(`
+    query BeardQuery {
+      allBeardsJson {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+    }
+  `)
 
-// You can delete this file if you're not using it
+  const beards = result.data.allBeardsJson.edges
+
+  beards.forEach(({ node: beard }) => {
+    const slug = beard.slug
+    actions.createPage({
+      path: `/${slug}`,
+      component: require.resolve("./src/templates/beard-template.js"),
+      context: { slug },
+    })
+  })
+}

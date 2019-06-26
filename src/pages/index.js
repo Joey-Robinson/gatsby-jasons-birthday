@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+// import BeardTemplate from "../templates/beard-template"
 
 const IndexPage = () => (
   <Layout>
