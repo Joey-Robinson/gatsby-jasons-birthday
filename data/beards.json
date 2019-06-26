@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Powerful Beard #1",
+    "slug": "powerful-beard-one",
+    "image": "./images/beard.jpg",
+    "description": "Look upon me mortals, as I harnass the power of THE BEARD"
+  },
+  {
+    "title": "Powerful Beard #2",
+    "slug": "powerful-beard-two",
+    "image": "./images/beard-two.png",
+    "description": "My ALL POWERFUL BEARD can even turn my surroundings into stone, if I so wish."
+  },
+  {
+    "title": "Powerful Beard #3",
+    "slug": "powerful-beard-three",
+    "image": "./images/beard-three.jpg",
+    "description": "My BEARD can even make entire trains STOP IN THEIR TRACKS"
+  },
+  {
+    "title": "Powerful Beard #4",
+    "slug": "powerful-beard-four",
+    "image": "./images/beard-four.jpg",
+    "description": "BEHOLD, I can even transport my beard inside of monitors"
+  },
+  {
+    "title": "Powerful Beard #5",
+    "slug": "powerful-beard-five",
+    "image": "./images/beard-five.jpg",
+    "description": "My beard is SO mighty, that even cameras are forced to zoom in"
+  },
+  {
+    "title": "Powerful Beard #6",
+    "slug": "powerful-beard-six",
+    "image": "./images/beard-six.jpg",
+    "description": "YOU DIDN'T EVEN NOTICE I HAVE ON PINK SLIPPERS BECAUSE OF MY BEARD"
+  },
+  {
+    "title": "Powerful Beard #7",
+    "slug": "powerful-beard-seven",
+    "image": "./images/beard-seven.jpg",
+    "description": "My beard even makes Ryan Gosling timid"
+  },
+  {
+    "title": "Powerful Beard #8",
+    "slug": "powerful-beard-eight",
+    "image": "./images/beard-eight.jpg",
+    "description": "My beard is even capable of making my body change clothes in an instant"
+  },
+  {
+    "title": "Powerful Beard #9",
+    "slug": "powerful-beard-nine",
+    "image": "./images/beard-nine.jpg",
+    "description": "Yes, you see this correctly. Trees and mountains bend to the will of the Beard"
+  },
+  {
+    "title": "Powerful-Beard #10",
+    "slug": "powerful-beard-ten",
+    "image": "./images/beard.jpg",
+    "description": "The Beard in all its natural wonder"
+  },
+  {
+    "title": "Rebel",
+    "slug": "rebel",
+    "image": "./images/rebel.jpg",
+    "description": "Rebel without a cause"
+  }
+]
