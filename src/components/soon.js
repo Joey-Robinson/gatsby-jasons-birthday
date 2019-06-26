@@ -28,27 +28,25 @@ const TheBeards = () => {
   const beard = data.allBeardsJson.edges
 
   return (
-    <Layout>
-      <section>
-        {beard.map(({ node: beard }) => {
-          const title = beard.title
-          const description = beard.description
-          const slug = beard.slug
-          const imageData = beard.image.childImageSharp.fluid
-          const image = beard.image.publicURL
+    <section className="beard">
+      {beard.map(({ node: beard }) => {
+        const title = beard.title
+        const description = beard.description
+        const slug = beard.slug
+        const imageData = beard.image.childImageSharp.fluid
+        const image = beard.image.publicURL
 
-          return (
-            <BeardPreview
-              image={image}
-              title={title}
-              description={description}
-              slug={slug}
-              imageData={imageData}
-            />
-          )
-        })}
-      </section>
-    </Layout>
+        return (
+          <BeardPreview
+            image={image}
+            title={title}
+            description={description}
+            slug={slug}
+            imageData={imageData}
+          />
+        )
+      })}
+    </section>
   )
 }
 

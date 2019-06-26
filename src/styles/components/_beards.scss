@@ -1,0 +1,51 @@
+.beards {
+  justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column: 2;
+  grid-row: 2;
+  border-right: 1px solid $jason-purple;
+  border-left: 1px solid $jason-purple;
+  &--image {
+    display: block;
+    grid-column: 3;
+    grid-row: 1;
+    width: 50rem;
+    height: 50rem;
+    align-self: center;
+    margin: 3rem 0 0 0;
+  }
+  h1 {
+    display: block;
+    grid-column: 4 / 6;
+    grid-row: 1;
+    justify-self: center;
+    margin: 3rem 0 0 0;
+    padding: 0 3rem;
+  }
+  &--back {
+    font-size: 3rem;
+    display: inline-block;
+    text-decoration: none;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 3rem 0 0 0;
+    padding: 0 1.5rem;
+    width: 17rem;
+    height: 5rem;
+  }
+}
+
+.gatsby-image-wrapper {
+  grid-row: 2;
+  grid-column: 3;
+  justify-self: center;
+  align-self: start;
+}
+
+.beard {
+  grid-column: 1;
+  justify-self: center;
+  font-size: 2.5rem;
+}
